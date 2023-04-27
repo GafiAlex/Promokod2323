@@ -18,9 +18,9 @@ async def promo(message: types.Message, command):
       await bot.set_chat_administrator_custom_title(message.chat.id, message.from_user.id, command.args)
       await message.answer(f"Привет, <b>{command.args}</b>")
     elif command.args=="65245345":
-        await message.answer(f"Добро день, <b>{command.args}</b>")
+        await message.answer(f"Добрый день, <b>{command.args}</b>")
     elif command.args == "53415673":
-        await message.answer(f"Добро день, <b>{command.args}</b>")
+        await message.answer(f"Добрый день, <b>{command.args}</b>")
     else:
             await  message.answer("Неверный Промокод")
 
